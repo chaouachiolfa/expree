@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url("https://i.ytimg.com/vi/RJKvTPWdj8g/maxresdefault.jpg");
+    background-position:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+}
+fieldset{
+    margin-top: 70px;
+    width: 27%;
+    background-color:#318ce7 ;
+    box-shadow: 5px 5px 20px 1px 10px rgb(85,85,85);
+    border:0px;
+    padding-left: 10px;
+    border-radius: 10px 10px 10px 10px ;
+    color: white;
+    height: 430px;
+
+}
+td{ letter-spacing: 1px;
+
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    text-align: center; 
+color:white;
+
+}
+hr{
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 40%;
+
+
+}
+#submit{
+    margin: 20px 35px;
+    color: #318ce7;
+    background: white;
+    width: 80%;
+    font-size: 17px;
+    border-radius: 20px;
+    border: 1px solid white; 
+    padding: 7px;
+
+}
+#submit :hover{
+    color:white;
+    background-color: #318ce7;
+}
+
+input{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid white;
+    color:white;
+    width: 100%;
+    margin-right: 50px;
+}
+nav{
+   
+ background: #318ce7;
+ height: 80px;
+ width: 100%;
+ font-family: 'Montserrat', sans-serif;
+ 
+}
+label.logo{
+    color:white;
+    font-size: 40px;
+
+    line-height: 80px;
+ padding: 0 100px;
+ font-weight: bold;
+
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-evenly ;
+    flex-direction: row;
+   
+    
+
+}
+nav ul li{
+  
+    list-style: none !important;
+    box-sizing: border-box;
+    margin-right:100px ;
+}
+
+    
+
+nav ul li a{
+    color:white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none !important;
+
+
+}
+.active,a:hover{
+    background:#1b9bff ;
+    transition: .5s;
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: white;
+    width:80% ;
+    height:100% ;
+    padding:20px ;
+    margin-left: 100px;
+    border-radius:10px ;
+    
+
+  
+}
+.image img{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 200px;
+    flex-wrap: wrap;
+    margin-left:80px ;
+    margin-right:120px ;
+    margin-top:40px ;
+    margin-bottom:20px ;
+  
+}

@@ -1,0 +1,17 @@
+{
+  "name": "chekexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon serverjs"
+   
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.0",
+    "nodemon": "^2.0.15"
+  }
+}
